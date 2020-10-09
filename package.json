@@ -1,0 +1,34 @@
+{
+    "name":                 "viceversa",
+    "private":              true,
+    "version":              "9.9.9",
+    "description":
+
+      "A persistent full-text inverted index in pure JavaScript for Node.js.",
+
+    "keywords":
+    [
+                            "inverted index", "full text", "b-tree", "database"
+    ],
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":             "https://github.com/bigeasy/viceversa",
+    "bugs":                 "https://github.com/bigeasy/viceversa/issues",
+    "license":              "MIT",
+    "repository":
+    {
+                            "type": "git",
+                            "url": "bigeasy/viceversa"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                            "proof":                        "^9.0.1"
+    },
+    "main":                 "viceversa",
+    "scripts":
+    {
+                            "test": "proof test/*.t.js"
+    }
+}
